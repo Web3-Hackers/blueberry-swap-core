@@ -1,0 +1,16 @@
+{
+  "name": "blueberryswapcore",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@BakeryProject/bakery-swap-lib": "github:BakeryProject/bakery-swap-lib",
+    "@truffle/hdwallet-provider": "^1.5.0"
+  }
+}
