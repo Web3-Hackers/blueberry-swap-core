@@ -49,20 +49,6 @@ module.exports = {
       gas: 0x1fffffffffffff,
     },
 
-    ropsten: {
-      provider: () => {
-        return new HDWalletProvider(
-          privateKeys,
-          "https://ropsten.infura.io/v3/" + process.env.INFURA_API_KEY,
-          0,
-          1
-        );
-      },
-      network_id: 3, // Ropsten's id
-      gas: 5500000, // Ropsten has a lower block limit than mainnet
-      skipDryRun: true,
-    },
-
     fantom: {
       provider: () => {
         return new HDWalletProvider(
